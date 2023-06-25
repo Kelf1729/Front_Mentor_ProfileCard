@@ -11,7 +11,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/images/bg-pattern-bottom.svg), url(/images/bg-pattern-top.svg);
+  background-image: url(./images/bg-pattern-bottom.svg),
+    url(./images/bg-pattern-top.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: left 50vw top 50vh, right 50vw bottom 50vh;
 }
