@@ -27,8 +27,8 @@ Modelo base para construção do desafio
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Solution URL: [https://github.com/Kelf1729/Front_Mentor_ProfileCard.git]
+- Live Site URL: [https://kelf1729.github.io/Front_Mentor_ProfileCard/]
 
 ## My process
 
