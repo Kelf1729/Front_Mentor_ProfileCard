@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: "Kumbh Sans";
+}
+// Variable
+$large: 20px;
+$medium: 16px;
+@mixin bg-detail {
+  position: absolute;
+  background-repeat: no-repeat;
+}
+// colors
+$primary-color1: hsl(185, 75%, 39%);
+$primary-color2: hsl(229, 23%, 23%);
+$primary-color3: hsl(227, 10%, 46%);
+$neutral-color: hsl(0, 0%, 59%);
+// Typography
+
+// Main
+body {
+  background-color: $primary-color1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/images/bg-pattern-bottom.svg),
+    url(/images/bg-pattern-top.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 50vw top 50vh, right 50vw bottom 50vh;
+}
+.image-card {
+  border-radius: 10px 10px 0px 0px;
+}
+.container-card {
+  background-color: white;
+  padding-top: 0px 40px 40px 40px;
+  border-radius: 0px 0px 10px 10px;
+  h1 {
+    font-weight: 700;
+    font-size: $large;
+    padding-bottom: 10px;
+  }
+  span {
+    color: $primary-color3;
+  }
+  h2 {
+    font-size: $medium;
+    color: $primary-color3;
+    padding-bottom: 40px;
+  }
+  img {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -50px;
+  }
+}
+.container-icone {
+  display: flex;
+  justify-content: center;
+  border-top: 3px solid $neutral-color;
+  padding: 20px;
+  gap: 20px;
+  p {
+    color: $primary-color3;
+  }
+}

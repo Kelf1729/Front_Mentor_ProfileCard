@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: "Kumbh Sans";
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/images/bg-pattern-bottom.svg), url(/images/bg-pattern-top.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 50vw top 50vh, right 50vw bottom 50vh;
+}
+
+.image-card {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.container-card {
+  background-color: white;
+  padding-top: 0px 40px 40px 40px;
+  border-radius: 0px 0px 10px 10px;
+}
+.container-card h1 {
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.container-card span {
+  color: hsl(227, 10%, 46%);
+}
+.container-card h2 {
+  font-size: 16px;
+  color: hsl(227, 10%, 46%);
+  padding-bottom: 40px;
+}
+.container-card img {
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: -50px;
+}
+
+.container-icone {
+  display: flex;
+  justify-content: center;
+  border-top: 3px solid hsl(0, 0%, 59%);
+  padding: 20px;
+  gap: 20px;
+}
+.container-icone p {
+  color: hsl(227, 10%, 46%);
+}
+
+/*# sourceMappingURL=style.css.map */
