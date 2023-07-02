@@ -38,6 +38,7 @@ Modelo base para construção do desafio
 - CSS custom properties
 - Flexbox
 - SASS
+- Mobile
 
 ## Author
 
