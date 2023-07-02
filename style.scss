@@ -21,12 +21,12 @@ $neutral-color: hsl(0, 0%, 59%);
 // Main
 body {
   background-color: $primary-color1;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(./images/bg-pattern-bottom.svg),
-    url(./images/bg-pattern-top.svg);
+  background-image: url(../images/bg-pattern-bottom.svg),
+    url(../images/bg-pattern-top.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: left 50vw top 50vh, right 50vw bottom 50vh;
 }
